@@ -1,0 +1,60 @@
+[
+    
+    {
+        "id": 1,
+        "name": "Diagnose & Research",
+        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "img": "https://i.ibb.co/R4X7YDJ/service1.png"
+    },
+
+    {
+        "id": 2,
+        "name": "Dental Surgery",
+        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "img": "https://i.ibb.co/j54WJCC/service2.png"
+    },
+
+    {
+        "id": 3,
+        "name": "Cancer Oncology",
+        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "img": "https://i.ibb.co/TBnGbgc/service3.png"
+
+    },
+    {
+        "id": 4,
+        "name": "Neurology",
+        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "img": "https://i.ibb.co/WcqH9mV/service4.png"
+    },
+
+    {
+        "id": 5,
+        "name": "Heart Center",
+        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "img": "https://i.ibb.co/V2RqKtF/service5.png"
+    },
+
+    {
+        "id": 6,
+        "name": "Medical Counseling",
+        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "img": "https://i.ibb.co/pWWc47H/service6.png"
+
+    },
+
+    {
+        "id": 7,
+        "name": "Endocrinology",
+        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "img": "https://i.ibb.co/RggVwS8/service7.png"
+
+    }
+]
+
+
+
+
+
+
+

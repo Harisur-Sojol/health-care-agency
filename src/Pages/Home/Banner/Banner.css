@@ -1,0 +1,24 @@
+#banner{
+    background-image: url('../../../images/banner-image.jpg');
+    height: 80vh;
+    /* width: 100%; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.title{
+    color: rgb(255, 255, 255);
+}
+.banner-btn{
+    margin-top: 28px;
+    padding: 13px 32px 12px ;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border-radius: 26px;
+    font-size: 15px;
+    background-color: #f26529;
+    border: none;
+    color: white;
+}
