@@ -1,9 +1,14 @@
-.icon{
+.iCon{
     font-size: 30px;
     padding-top: 30px;
     padding-left: 15px;
+    color: #f26529;
     
 }
+.iCon:hover{
+    color: #00a3c8;
+}
+
 .about-icon{
     background-color: rgb(190, 187, 187);
     width: 90px;

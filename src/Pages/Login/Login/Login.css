@@ -2,22 +2,21 @@
     background-color: rgb(170, 180, 177);
 }
 .login-btn{
-    background-color: #002147;
+    background-color: #110652;
     border: 2px solid #002147;
-    border-radius: 0;
     color: #ffffff;
     height: 40px;
     line-height: 24px;
-    padding: 6px 30px;
+    padding: 6px 35px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 .form-bg{
     background-color: rgb(131, 131, 163);
-    width:5000px ;
-}
-.fa-google-plus-g{
-    font-size: 20px;
+    width:363px ;
 }
 .google-signIn-btn{
     font-family: 'Raleway', sans-serif;
@@ -28,4 +27,7 @@
     border: none;
     color: white;
     padding:9px 25px;
+}
+.login-register-heading{
+    color: #f26529;
 }

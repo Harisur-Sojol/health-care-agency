@@ -15,7 +15,6 @@ const Servicedetail = () => {
         .then(data => {
             const exactData = data?.find(td => td.id == id);
             setData(exactData)
-            console.log(exactData)
         })
     } ,[id])
 

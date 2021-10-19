@@ -8,14 +8,19 @@ import initializeAuthentication from '../Pages/Login/Firebase/firebase.init'
 const useFirebase = () => {
 
     const [user, setUser] = useState({})
+    const [isLoading, setIsLoading] = useState(true);
+
     const auth = getAuth();
 
 
     const signInUsingGoogle = () => {
+        setIsLoading(true)
         const GoogleProvider = new GoogleAuthProvider();
-    return  signInWithPopup(auth, GoogleProvider)
 
+    return  signInWithPopup(auth, GoogleProvider)
+        .finally( () => setIsLoading(false))
     }
+    
 
 
     useEffect(() => {
@@ -26,21 +31,24 @@ const useFirebase = () => {
             else {
                 setUser({})
             }
+            setIsLoading(false);
         });
         return () => unsubscribed;
     }, [])
 
 
     const logOut = () => {
+        setIsLoading(true);
         signOut(auth)
         .then( () => {
             setUser({})
         })
+        .finally( () => setIsLoading(false))
     }
 
 
 
-    return {user, signInUsingGoogle, logOut}
+    return {user, signInUsingGoogle, logOut, isLoading}
 };
 
 export default useFirebase;

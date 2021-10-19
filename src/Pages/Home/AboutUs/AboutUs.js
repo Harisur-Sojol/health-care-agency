@@ -15,7 +15,7 @@ const AboutUs = () => {
                             <div className="col-md-6 my-4">
                                 <div className='d-flex align-items-center justify-content-center'>
                                     <div className="about-icon">
-                                        <i className="fas fa-stethoscope icon me-4"></i>
+                                        <i className="fas fa-stethoscope iCon me-4"></i>
                                     </div>
                                     <div className="health-info">
                                         <h5>Outdoor Checkup</h5>
@@ -26,7 +26,7 @@ const AboutUs = () => {
                             <div className="col-md-6 my-4">
                                 <div className='d-flex align-items-center justify-content-center'>
                                     <div className="about-icon">
-                                        <i class="fas fa-ambulance icon me-4"></i>
+                                        <i class="fas fa-ambulance iCon me-4"></i>
                                     </div>
                                     <div className="health-info">
                                         <h5>Emergency Care</h5>
@@ -37,7 +37,7 @@ const AboutUs = () => {
                             <div className="col-md-6 my-4">
                                 <div className='d-flex align-items-center justify-content-center'>
                                     <div className="about-icon">
-                                        <i class="fas fa-user-nurse icon me-4"></i>
+                                        <i class="fas fa-user-nurse iCon me-4"></i>
                                     </div>
                                     <div className="health-info">
                                         <h5>Nurse Care</h5>
@@ -48,7 +48,7 @@ const AboutUs = () => {
                             <div className="col-md-6 my-4">
                                 <div className='d-flex align-items-center justify-content-center'>
                                     <div className="about-icon">
-                                        <i class="fas fa-burn icon me-4"></i>
+                                        <i class="fas fa-burn iCon me-4"></i>
                                     </div>
                                     <div className="health-info">
                                         <h5>Blood Test</h5>
@@ -59,7 +59,7 @@ const AboutUs = () => {
                             <div className="col-md-6 my-4">
                                 <div className='d-flex align-items-center justify-content-center'>
                                     <div className="about-icon">
-                                        <i class="fas fa-procedures icon me-4"></i>
+                                        <i class="fas fa-procedures iCon me-4"></i>
                                     </div>
                                     <div className="health-info">
                                         <h5>Operation Theater</h5>
@@ -70,7 +70,7 @@ const AboutUs = () => {
                             <div className="col-md-6 my-4">
                                 <div className='d-flex align-items-center justify-content-center'>
                                     <div className="about-icon">
-                                        <i class="fas fa-pills  icon me-4"></i>
+                                        <i class="fas fa-pills  iCon me-4"></i>
                                     </div>
                                     <div className="health-info">
                                         <h5>Pharmacy</h5>

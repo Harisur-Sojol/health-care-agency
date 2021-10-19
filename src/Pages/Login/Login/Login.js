@@ -8,24 +8,24 @@ const Login = () => {
     const { signInUsingGoogle } = useAuth();
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from || '/home'
+    const redirect_uri = location?.state?.from || "/home";
 
     const handleGoogleLogin = () => {
         signInUsingGoogle()
             .then(result => {
                 history.push(redirect_uri);
-            })
+            })              
     }
 
     return (
         <>
             <div>
-                <h1 className=' mt-5'>Please Login</h1>
-                <p className='  mt-4 fs-5 fst-italic fw-normal'>Login with Email & Password</p>
+                <h1 className='fst-italic fw-normal login-register-heading mt-5'>Please Login</h1>
                 <div className=''>
+                <p className='  mt-4 fs-5 fst-italic fw-normal'>Login with Email & Password</p>
                     <div className="container">
-                        <div className="d-flex justify-content-center align-items-center">
-                            <form className="form-bg" >
+                        <div className="d-flex justify-content-center align-items-center form-bg m-auto">
+                            <form className="w-50" >
                                 <div className="mb-3 mt-5">
                                     <input type="name" placeholder='Name: ' className="form-control" id="exampleInputEmail1 " aria-describedby="emailHelp" />
                                 </div>
@@ -45,7 +45,7 @@ const Login = () => {
                         <button className='mt-3 mb-2  google-signIn-btn' onClick={handleGoogleLogin}>
                             Google Sign in</button>
 
-                        <h5 className="my-3"> <Link to='/register'>Create A New Account</Link></h5>
+                        <h6 className="my-3"> <Link to='/register'>Create A New Account</Link></h6>
                     </div>
                 </div>
             </div>
@@ -54,9 +54,3 @@ const Login = () => {
 };
 
 export default Login;
-
-
-
-
-
-{/* <i className="fab fa-google-plus-g "></i> */ }
