@@ -11,7 +11,8 @@ const Footer = () => {
                         <div className="col-md-3 my-3 text-white">
                             <img className='footer-img my-3' src={footerLogo} alt="" />
                             <h6>About Health Care Agency</h6>
-                            <p>Sed ipsum posuere nunc libero pellentesque vitae ultrices posuere. Praesent justo dui laoreet dignissim lectus etiam ipsum habitant tristique</p>
+                            <p className='mb-2'>The Health Care Agency is located in the city of london is one of the most modern health care center in UK</p>
+                            <p>Read More...</p>
                         </div>
                         <div className="col-md-3 my-3">
                             <h3 className="text-white">Helpful Links</h3>

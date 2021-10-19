@@ -5,14 +5,12 @@ import notfound from '../../../images/notFound.png'
 const NotFound = () => {
     return (
         <>
-            <div className='text-center error-area mt-5 mb-5'>
+            <div className='text-center notFound-area mt-5 mb-5'>
                 <img className='error-img' src={notfound} alt="" />
-                <h3>Oops... Page Not Found!</h3>
-                <p className="fs-5 text-secondary fw-normal">Sorry the page could not be found here</p>
+                <h3 className="mt-4">Oops... Page Not Found!</h3>
+                <p className="fs-5 text-secondary fw-normal mt-3">Sorry the page you are looking for is not found here!!!</p>
                 <i className="fas fa-exclamation-triangle"></i>
             </div>
-
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, rem?</h1>
         </>
     );
 };

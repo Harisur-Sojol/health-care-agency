@@ -8,9 +8,9 @@ const AboutUs = () => {
             <h3 className="text-center about-heading">About Us</h3>
             <hr className="about-hr-bar" />
             <div className="container">
-                <div className="row mt-5 align-items-center">
+                <div className="row mt-5 mb-3 align-items-center">
                     <div className="col-md-7">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptatibus neque, assumenda maxime. Eaque libero unde corrupti deleniti maxime ratione doloremque suscipit perferendis aperiam labore debitis atque odit neque possimus optio quo.</p>
+                        <p className="fs-6 fw-normal">The Health Care Agency is a regional provider, charged with protecting and promoting individual, family and community health through coordination of public and private sector resources. HCA's service environment is complex, with 180 different funding sources and over 200 State and Federal mandates. The mandates under which HCA operates require the County to provide for, or to regulate, certain health services. Many also carry specific requirements for staffing, operations, claiming and record-keeping.</p>
                         <div className="row">
                             <div className="col-md-6 my-4">
                                 <div className='d-flex align-items-center justify-content-center'>

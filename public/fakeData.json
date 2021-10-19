@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Diagnose & Research",
         "price": 200,
-        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "description": "Medical diagnosis is the process of determining which disease or condition explains a person's symptoms and signs. It is most often referred to as diagnosis with the medical context being implicit.",
         "img": "https://i.ibb.co/R4X7YDJ/service1.png"
     },
 
@@ -12,7 +12,7 @@
         "id": 2,
         "name": "Dental Surgery",
         "price": 250,
-        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "description": "Dental surgery is any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth, gums and jaw bones.",
         "img": "https://i.ibb.co/j54WJCC/service2.png"
     },
 
@@ -20,7 +20,7 @@
         "id": 3,
         "name": "Cancer Oncology",
         "price": 100,
-        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "description": "Oncology is a branch of medicine that deals with the prevention, diagnosis, and treatment of cancer. A medical professional who practices oncology is an oncologist. ",
         "img": "https://i.ibb.co/TBnGbgc/service3.png"
 
     },
@@ -28,7 +28,7 @@
         "id": 4,
         "name": "Neurology",
         "price": 300,
-        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions",
         "img": "https://i.ibb.co/WcqH9mV/service4.png"
     },
 
@@ -36,7 +36,7 @@
         "id": 5,
         "name": "Heart Center",
         "price": 500,
-        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "description": "Hurley Heart Center combines compassionate care with the latest technological advances to address the community’s heart health. We say “community” because not only do we diagnose and treat heart problems, ",
         "img": "https://i.ibb.co/V2RqKtF/service5.png"
     },
 
@@ -44,7 +44,7 @@
         "id": 6,
         "name": "Medical Counseling",
         "price": 400,
-        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "description": "The Medical Counselling Committee is an organisation under the Directorate General of Health Services affiliated to the Ministry of Health and Family Welfare, Government of India",
         "img": "https://i.ibb.co/pWWc47H/service6.png"
 
     },
@@ -53,7 +53,7 @@
         "id": 7,
         "name": "Endocrinology",
         "price": 350,
-        "description": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]",
+        "description": "Endocrinology is the study of hormones. Hormones are essential for our every-day survival. They control our temperature, sleep, mood, stress, growth and more. An endocrinologist is a doctor that treats diseases related to problems with hormones.",
         "img": "https://i.ibb.co/RggVwS8/service7.png"
 
     }

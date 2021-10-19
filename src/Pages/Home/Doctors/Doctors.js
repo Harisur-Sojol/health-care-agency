@@ -10,10 +10,10 @@ import doctor5 from '../../../images/doctors/doctor5.png'
 const Doctors = () => {
     return (
         <div id='doctors'>
-            <h3 className="doctors-heading">Our Specialist</h3>
-            <hr className="hr-bar" />
+            <h3 className="doctors-heading mt-3">Our Specialist</h3>
+            <hr className="hr-bar mb-3" />
             <div className="container ">
-                <div className="row m-4 g-5">
+                <div className="row g-5">
                     <div className="mb-5 col-md-4 ">
                         <div className="card w-100 h-100 text-center rounded doctorCard">
                             <div className="d-flex justify-content-center align-items-center h-75 p-2">
@@ -21,7 +21,7 @@ const Doctors = () => {
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> Dr. Jonathon Alex</h5>
-                                <p className="text-secondary fst-italic fw-normal">Orthopaedics</p>
+                                <p className="text-secondary fst-italic fw-normal">Orthopaedics Specialist</p>
                             </div>
                             <div className="card-footer">
                                 <div className="d-flex align-items-center justify-content-between ">
@@ -40,7 +40,7 @@ const Doctors = () => {
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title">Dr. Smile Jhon</h5>
-                                <p className="text-secondary fst-italic fw-normal">Orthopaedics</p>
+                                <p className="text-secondary fst-italic fw-normal">Orthopaedics Specialist</p>
                             </div>
                             <div className="card-footer">
                                 <div className="d-flex align-items-center justify-content-between ">
@@ -59,7 +59,7 @@ const Doctors = () => {
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> Dr. Mark Jacobson</h5>
-                                <p className='text-secondary fst-italic fw-normal'>Cardiology</p>
+                                <p className='text-secondary fst-italic fw-normal'>Cardiology Specialist</p>
                             </div>
                             <div className="card-footer">
                                 <div className="d-flex align-items-center justify-content-between ">
@@ -78,7 +78,7 @@ const Doctors = () => {
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> Dr. Mark Jacobson</h5>
-                                <p className='text-secondary fst-italic fw-normal'>Cardiology</p>
+                                <p className='text-secondary fst-italic fw-normal'>Cardiology Specialist</p>
                             </div>
                             <div className="card-footer">
                                 <div className="d-flex align-items-center justify-content-between ">
@@ -97,7 +97,7 @@ const Doctors = () => {
                             </div>
                             <div className="card-body">
                                 <h5 className="card-title"> Dr. Mark Jacobson</h5>
-                                <p className='text-secondary fst-italic fw-normal'>Cardiology</p>
+                                <p className='text-secondary fst-italic fw-normal'>Cardiology Specialist</p>
                             </div>
                             <div className="card-footer">
                                 <div className="d-flex align-items-center justify-content-between ">
