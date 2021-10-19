@@ -25,7 +25,7 @@ const Register = () => {
                             </div>
                             
                             <div className="mb-3">
-                                <input onBlur={handlePasswordChange} type="password" placeholder='Password:' className="form-control" id="exampleInputPassword1" value="" required />
+                                <input onBlur={handlePasswordChange} type="password" placeholder='Password:' className="form-control" id="exampleInputPassword1" required />
                             </div>
 
                              {/* <button type="submit" className=" login-btn">Register</button>  */}

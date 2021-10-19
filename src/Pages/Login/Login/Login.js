@@ -5,7 +5,7 @@ import useAuth from '../../../Hooks/useAuth';
 
 const Login = () => {
 
-    const { signInUsingGoogle, handleLoginNameChange, handleLoginPasswordChange, handleEmailChange, handleLogin } = useAuth();
+    const { signInUsingGoogle, handleLoginNameChange, handleLoginPasswordChange, handleLoginEmailChange, handleLogin } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location?.state?.from || "/home";
@@ -27,7 +27,7 @@ const Login = () => {
                         <div className="d-flex justify-content-center align-items-center form-bg m-auto">
                             <form onSubmit={handleLogin} className="w-75" >
                                 <div className="mb-3 mt-5">
-                                    <input onBlur={handleLoginNameChange} type="email" placeholder='Your Email:' className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                    <input onBlur={handleLoginEmailChange} type="email" placeholder='Your Email:' className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                                 </div>
                                 <div className="mb-3">
 

@@ -47,7 +47,6 @@ const useFirebase = () => {
 
 
     //create  Email and password
-    
     const handleNameChange = e => {
         setname(e.target.value)
     }
@@ -63,7 +62,7 @@ const useFirebase = () => {
      const handleRegistration = e => {
          e.preventDefault()
          console.log(name, email, password)
-         createUserWithEmailAndPassword(auth, loginName, loginEmail, loginPassword)
+         createUserWithEmailAndPassword(auth, email, password)
          .then(result => {
              const user = result.user;
              console.log(user)
@@ -73,9 +72,6 @@ const useFirebase = () => {
 
      //log in with email and password
 
-     const handleLoginNameChange = e => {
-        setLoginName(e.target.value)
-     }
 
      const handleLoginEmailChange = e => {
          setLoginEmail(e.target.value)
@@ -87,10 +83,13 @@ const useFirebase = () => {
  
      const handleLogin = e => {
          e.preventDefault()
-         signInWithEmailAndPassword(auth, name, email, password)
+         signInWithEmailAndPassword(auth, email, password)
          .then(result => {
             const user2 = result.user;
             console.log(user2)
+         })
+         .catch(error => {
+             console.log(error.message)
          })
      }
 
@@ -106,7 +105,7 @@ const useFirebase = () => {
 
 
 
-    return {user, signInUsingGoogle, logOut, isLoading, handleEmailChange, handlePasswordChange, handleNameChange, handleRegistration, handleLoginNameChange, handleLoginPasswordChange, handleEmailChange, handleLogin}
+    return {user, signInUsingGoogle, logOut, isLoading, handleEmailChange, handlePasswordChange, handleNameChange, handleRegistration, handleLoginPasswordChange, handleLoginEmailChange, handleLogin}
 };
 
 export default useFirebase;
