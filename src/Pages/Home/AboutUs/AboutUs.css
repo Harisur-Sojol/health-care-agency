@@ -1,0 +1,22 @@
+.icon{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 15px;
+    
+}
+.about-icon{
+    background-color: rgb(190, 187, 187);
+    width: 90px;
+    height: 90px;
+}
+.health-info{
+    display: block;
+}
+.about-heading{
+    color: #eb5b1d ;
+}
+.about-hr-bar{
+    width: 70px;
+    border: 2px solid rgb(38, 0, 255);
+    margin: auto;
+}

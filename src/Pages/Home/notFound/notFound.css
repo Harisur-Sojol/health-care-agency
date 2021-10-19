@@ -1,0 +1,11 @@
+/* .error-area{
+    height: 42vh;
+} */
+.error-img{
+    width: 210px;
+    
+}
+.fa-exclamation-triangle{
+    font-size: 30px;
+    color: rgb(223, 12, 12);
+}

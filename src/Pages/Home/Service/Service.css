@@ -1,0 +1,23 @@
+.service-card{
+    border: none;
+}
+.service-card:hover{
+    box-shadow: 1px 1px 7px 2px gray;
+    transition: all 0.4s;
+}
+/* .service-card:hover img{
+    overflow: hidden;
+    transform: scale(1.2);
+    transition: transform 1s;
+} */
+
+.service-btn{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #f26529;
+    border: none;
+    color: white;
+    padding:9px 25px;
+}

@@ -1,0 +1,18 @@
+.footer-area{
+    background-color: rgb(13, 76, 105);
+    /* height: 200px; */
+}
+.footer-img{
+    width: 150px;  
+}
+.info{
+    list-style: none;
+    color: white;
+}
+.footer-useFull-links{
+    list-style: none;
+    color: white;
+}
+.conatct-list{
+    list-style: none;
+}
