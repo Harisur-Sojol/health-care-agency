@@ -30,6 +30,7 @@ const useFirebase = () => {
     }
 
 
+    //observer
     useEffect(() => {
       const unsubscribed =  onAuthStateChanged(auth, (user) => {
             if (user) {
@@ -46,7 +47,7 @@ const useFirebase = () => {
 
 
 
-    //create  Email and password
+    //Registration with Email and password
     const handleNameChange = e => {
         setname(e.target.value)
     }
@@ -71,8 +72,6 @@ const useFirebase = () => {
 
 
      //log in with email and password
-
-
      const handleLoginEmailChange = e => {
          setLoginEmail(e.target.value)
      }
@@ -105,7 +104,18 @@ const useFirebase = () => {
 
 
 
-    return {user, signInUsingGoogle, logOut, isLoading, handleEmailChange, handlePasswordChange, handleNameChange, handleRegistration, handleLoginPasswordChange, handleLoginEmailChange, handleLogin}
+    return {
+        user, 
+        signInUsingGoogle, 
+        logOut, 
+        isLoading, 
+        handleEmailChange, 
+        handlePasswordChange, 
+        handleNameChange, 
+        handleRegistration, 
+        handleLoginEmailChange, 
+        handleLoginPasswordChange, 
+        handleLogin}
 };
 
 export default useFirebase;

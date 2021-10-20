@@ -43,3 +43,6 @@
 .doctor-btn:hover{
     background-color: #00a3c8;
 }
+@media screen and  (max-width:380px){
+    .doctor-btn{padding: 9px 11px}
+}

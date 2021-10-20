@@ -23,7 +23,7 @@ const Doctors = () => {
                                 <h5 className="card-title"> Dr. Jonathon Alex</h5>
                                 <p className="text-secondary fst-italic fw-normal">Orthopaedics Specialist</p>
                             </div>
-                            <div className="card-footer">
+                            <div className="card-footer ps-1 pe-1">
                                 <div className="d-flex align-items-center justify-content-between ">
                                     <i class="fab fa-facebook icon ps-2"></i>
                                     <i class="fab fa-twitter icon pe-2"></i>
@@ -42,7 +42,7 @@ const Doctors = () => {
                                 <h5 className="card-title">Dr. Smile Jhon</h5>
                                 <p className="text-secondary fst-italic fw-normal">Orthopaedics Specialist</p>
                             </div>
-                            <div className="card-footer">
+                            <div className="card-footer ps-1 pe-1">
                                 <div className="d-flex align-items-center justify-content-between ">
                                     <i class="fab fa-facebook icon ps-2"></i>
                                     <i class="fab fa-twitter icon pe-2"></i>
@@ -61,7 +61,7 @@ const Doctors = () => {
                                 <h5 className="card-title"> Dr. Mark Jacobson</h5>
                                 <p className='text-secondary fst-italic fw-normal'>Cardiology Specialist</p>
                             </div>
-                            <div className="card-footer">
+                            <div className="card-footer ps-1 pe-1">
                                 <div className="d-flex align-items-center justify-content-between ">
                                     <i class="fab fa-facebook icon ps-2"></i>
                                     <i class="fab fa-twitter icon pe-2"></i>
@@ -80,7 +80,7 @@ const Doctors = () => {
                                 <h5 className="card-title"> Dr. Mark Jacobson</h5>
                                 <p className='text-secondary fst-italic fw-normal'>Cardiology Specialist</p>
                             </div>
-                            <div className="card-footer">
+                            <div className="card-footer ps-1 pe-1">
                                 <div className="d-flex align-items-center justify-content-between ">
                                     <i class="fab fa-facebook icon ps-2"></i>
                                     <i class="fab fa-twitter icon pe-2"></i>
@@ -99,7 +99,7 @@ const Doctors = () => {
                                 <h5 className="card-title"> Dr. Mark Jacobson</h5>
                                 <p className='text-secondary fst-italic fw-normal'>Cardiology Specialist</p>
                             </div>
-                            <div className="card-footer">
+                            <div className="card-footer ps-1 pe-1">
                                 <div className="d-flex align-items-center justify-content-between ">
                                     <i class="fab fa-facebook icon ps-2"></i>
                                     <i class="fab fa-twitter icon pe-2"></i>

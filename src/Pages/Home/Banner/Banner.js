@@ -1,6 +1,8 @@
 import React from 'react';
+import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Banner.css'
+import banner6 from '../../../images/banner/banner5.png'
 
 const Banner = () => {
     return (
@@ -15,7 +17,8 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> 
+            
         </div>
     );
 };

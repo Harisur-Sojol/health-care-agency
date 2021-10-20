@@ -13,6 +13,19 @@
     list-style: none;
     color: white;
 }
-.conatct-list{
+.info:hover{
+    color: #f26529;
+
+}
+.contact-list{
     list-style: none;
 }
+.copyright-name{
+    color: #f26529;
+}
+
+/* @media screen and (max-width:350px){
+    .footer-email{
+        word-wrap: wrap;
+    }
+} */
