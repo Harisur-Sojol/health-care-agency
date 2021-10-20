@@ -43,7 +43,6 @@ const Register = () => {
                                     Google Sign in</button>
                             </form>
                         </div>
-
                         <h6 className="my-3">Already have an account?<Link to="/login"> Click here to login</Link></h6>
                     </div>
                 </div>
