@@ -35,10 +35,8 @@ const Register = () => {
 
                                 <div className="mb-3">
                                     <input onBlur={handlePasswordChange} type="password" placeholder='Password:' className="form-control" id="exampleInputPassword1" required />
-                                    <p>{error}</p>
                                 </div>
 
-                                {/* <button type="submit" className=" login-btn">Register</button>  */}
                                 <input type="submit" className="register-login-btn w-75" value="Register" />
                                 <h3 className="mt-1 fw-normal fst-italic text-white">Or</h3>
                                 <button className='mt-1 mb-2  google-signIn-btn' onClick={handleGoogleLogin}>
