@@ -19,7 +19,7 @@ const AboutUs = () => {
                                     </div>
                                     <div className="health-info">
                                         <h5>Outdoor Checkup</h5>
-                                        <p className="ps-4">Lorem ipsum dolor sit amet.</p>
+                                        <p className="ps-4">Find the perfect doctor check</p>
                                     </div>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@ const AboutUs = () => {
                                     </div>
                                     <div className="health-info">
                                         <h5>Emergency Care</h5>
-                                        <p className="ps-4">Lorem ipsum dolor sit amet.</p>
+                                        <p className="ps-4">24 Hours open, call: +523826877</p>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const AboutUs = () => {
                                     </div>
                                     <div className="health-info">
                                         <h5>Nurse Care</h5>
-                                        <p className="ps-4">Lorem ipsum dolor sit amet.</p>
+                                        <p className="ps-4">Nursing Home/Clinic.hospital.</p>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ const AboutUs = () => {
                                     </div>
                                     <div className="health-info">
                                         <h5>Blood Test</h5>
-                                        <p className="ps-4">Lorem ipsum dolor sit amet.</p>
+                                        <p className="ps-4">when you need test test ur blood</p>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const AboutUs = () => {
                                     </div>
                                     <div className="health-info">
                                         <h5>Operation Theater</h5>
-                                        <p className="ps-4">Lorem ipsum dolor sit amet.</p>
+                                        <p className="ps-4">we have 50 opreration theater</p>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ const AboutUs = () => {
                                     </div>
                                     <div className="health-info">
                                         <h5>Pharmacy</h5>
-                                        <p className="ps-4">Lorem ipsum dolor sit amet.</p>
+                                        <p className="ps-4">we have our own pharmacy,buy..</p>
                                     </div>
                                 </div>
                             </div>

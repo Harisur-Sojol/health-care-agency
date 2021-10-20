@@ -5,11 +5,13 @@ import useAuth from '../../../Hooks/useAuth';
 
 const Login = () => {
 
-    const { signInUsingGoogle, handleLoginPasswordChange, handleLoginEmailChange, handleLogin } = useAuth();
+    const { signInUsingGoogle, handleLoginPasswordChange, handleLoginEmailChange, handleLogin, error, setError } = useAuth();
+
+
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location?.state?.from || "/home";
-
+    console.log(error)
     const handleGoogleLogin = () => {
         signInUsingGoogle()
             .then(result => {
@@ -17,6 +19,12 @@ const Login = () => {
             })
     }
 
+
+const handleSignIn = (e) => {
+    e.preventDefault();
+    handleLogin(history,redirect_uri)
+    
+}
     return (
         <>
             <div className=''>
@@ -24,16 +32,17 @@ const Login = () => {
                 <p className='  mt-4 fs-5 fst-italic fw-normal'>Login with Email & Password</p>
                 <div className="container">
                     <div className="d-flex justify-content-center align-items-center form-bg m-auto">
-                        <form onSubmit={handleLogin} className="w-75" >
+                        <form onSubmit={handleSignIn} className="w-75" >
                             <div className="mb-3 mt-5">
                                 <input onBlur={handleLoginEmailChange} type="email" placeholder='Your Email:' className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                             </div>
                             <div className="mb-3">
 
                                 <input onBlur={handleLoginPasswordChange} type="password" placeholder='Password:' className="form-control" id="exampleInputPassword1" />
+                                
                             </div>
                             <input type="submit" className="register-login-btn w-75" value="Log In" />
-
+                            <p className="text-danger">{error}</p>
                             <h3 className="mt-1 text-white fw-normal fst-italic">Or</h3>
                             <button className='mt-1 mb-2  google-signIn-btn' onClick={handleGoogleLogin}>
                                 Login With Google</button>

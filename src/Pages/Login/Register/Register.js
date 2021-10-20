@@ -1,10 +1,19 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
-import './Register.css'
+import './Register.css';
+import{useHistory} from "react-router-dom";
+
 
 const Register = () => {
-    const { handleGoogleLogin, handleNameChange, handleEmailChange, handlePasswordChange, handleRegistration } = useAuth()
+    const history = useHistory()
+    const { handleGoogleLogin, handleNameChange, handleEmailChange, handlePasswordChange, handleRegistration, error } = useAuth();
+
+    const handleReg = e => {
+        e.preventDefault()
+        handleRegistration(history)
+
+    }
 
     return (
         <>
@@ -15,7 +24,7 @@ const Register = () => {
                     <p className='  mt-4 fs-5 fst-italic fw-normal'>Register with Email and Password</p>
                     <div className="container">
                         <div className="d-flex justify-content-center align-items-center form-bg m-auto">
-                            <form onSubmit={handleRegistration} className="w-75" >
+                            <form onSubmit={handleReg} className="w-75" >
                                 <div className="mb-3 mt-5">
                                     <input onBlur={handleNameChange} type="name" placeholder='Name: ' className="form-control" id="exampleInputEmail1 " aria-describedby="emailHelp" />
                                 </div>
@@ -26,6 +35,7 @@ const Register = () => {
 
                                 <div className="mb-3">
                                     <input onBlur={handlePasswordChange} type="password" placeholder='Password:' className="form-control" id="exampleInputPassword1" required />
+                                    <p>{error}</p>
                                 </div>
 
                                 {/* <button type="submit" className=" login-btn">Register</button>  */}
