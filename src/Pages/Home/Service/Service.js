@@ -18,7 +18,7 @@ const Service = ({ service }) => {
                     <div className="card-footer">
                         <div className="d-flex align-items-center justify-content-between ">
                             <h4 className="text-warning price">$ {price}</h4>
-                            <Link to={`/serviceDetail/${id}`}><button className="service-btn">Read More</button></Link>
+                            <Link to={`/serviceDetail/${id}`}><button className="service-btn">Appointment</button></Link>
                         </div>
                     </div>
                 </div>
