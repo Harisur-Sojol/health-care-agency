@@ -10,11 +10,11 @@
     padding:10px 25px;
 }
 
-.serviceCard:hover img{
+/* .serviceCard:hover img{
     overflow: hidden;
     transform: scale(1.2);
     transition: transform 1s;
-}
+} */
 .serviceCard:hover{
     box-shadow: 1px 1px 7px 2px gray;
     transition: all 0.4s;

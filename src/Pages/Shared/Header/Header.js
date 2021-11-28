@@ -21,11 +21,11 @@ const Header = () => {
                         <Nav.Link as={Link} to="/doctors">Doctors</Nav.Link>
                         <Nav.Link as={Link} to="/aboutUs">About Us</Nav.Link>
                         {user?.email ?
-                            <Button onClick={logOut} className='bg-warning'>Logout</Button>
+                            <Button onClick={logOut} className='bg-danger'>Logout</Button>
                             :
                             <Nav.Link as={Link} to="/login">Login</Nav.Link>}
                         <Navbar.Text >
-                        Signed in as:   <a  href="#login"> {user?.displayName}</a>
+                        Signed in as: {user?.displayName}
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>

@@ -10,7 +10,6 @@ const Servicedetail = () => {
  
 
     useEffect(() => {
-        // fetch('https://raw.githubusercontent.com/Harisur-Sojol/fakeData/main/fakeData.json')
         fetch('https://raw.githubusercontent.com/Harisur-Sojol/medicalData/main/fakeData.json')
         .then(res => res.json())
         .then(data => {
